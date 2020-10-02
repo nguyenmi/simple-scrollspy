@@ -4,7 +4,8 @@
   "description": "ScrollSpy effect for website",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cross-env NODE_ENV=development webpack --inline --hot --progress --host 0.0.0.0",
+    "build": "cross-env NODE_ENV=production webpack -p --progress --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/nguyenmi/simple-scrollspy/issues"
   },
-  "homepage": "https://github.com/nguyenmi/simple-scrollspy#readme"
+  "homepage": "https://github.com/nguyenmi/simple-scrollspy#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2"
+  }
 }
