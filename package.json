@@ -1,0 +1,24 @@
+{
+  "name": "simple-scrollspy",
+  "version": "1.0.0",
+  "description": "ScrollSpy effect for website",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenmi/simple-scrollspy.git"
+  },
+  "keywords": [
+    "ScrollSpy",
+    "Javascript",
+    "umd"
+  ],
+  "author": "Nguyen Ngoc Dien <nguyencumi112@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nguyenmi/simple-scrollspy/issues"
+  },
+  "homepage": "https://github.com/nguyenmi/simple-scrollspy#readme"
+}
